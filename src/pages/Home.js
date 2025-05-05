@@ -1,8 +1,7 @@
 import React from 'react';
-import 
 
 function App() {
-  // Data for roadmaps
+  //  roadmaps section 
   const roadmaps = [
     {
       id: "beginner",
@@ -42,7 +41,7 @@ function App() {
     }
   ];
 
-  // Data for benefits
+  // benifits sec
   const benefits = [
     {
       id: "problem-solving",
@@ -70,7 +69,7 @@ function App() {
     }
   ];
 
-  // Data for how it works steps
+  // details
   const steps = [
     {
       id: 1,
@@ -94,7 +93,7 @@ function App() {
     }
   ];
 
-  // Data for testimonials
+  // people's feedback
   const testimonials = [
     {
       id: "1",
@@ -124,32 +123,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* Navigation */}
-      <header className="navbar">
-        <div className="container">
-          <div className="logo">
-            <div className="logo-icon">&lt;/&gt;</div>
-            <span className="logo-text">CodeRoot</span>
-          </div>
-          <nav className="nav-links">
-            <a href="#" className="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Practice</a>
-            <a href="#">Roadmap</a>
-            <a href="#">Explore</a>
-            <a href="#">Profile</a>
-          </nav>
-          <div className="auth-buttons">
-            <button className="btn-link">Login</button>
-            <button className="btn-primary">Sign Up</button>
-          </div>
-          <button className="mobile-menu-button">
-            <span>☰</span>
-          </button>
-        </div>
-      </header>
-
-      {/* Hero Section */}
+      {/* main */}
       <section className="hero">
         <div className="container">
           <div className="hero-content">
@@ -166,7 +140,7 @@ function App() {
         </div>
       </section>
 
-      {/* Roadmaps Section */}
+      {/* roadmap sec */}
       <section className="roadmaps">
         <div className="container">
           <div className="section-header">
@@ -222,7 +196,7 @@ function App() {
         </div>
       </section>
 
-      {/* How It Works Section */}
+      {/* details sec */}
       <section className="how-it-works">
         <div className="container">
           <div className="section-header">
@@ -249,7 +223,7 @@ function App() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
+      {/* feedback sec */}
       <section className="testimonials">
         <div className="container">
           <div className="section-header">
@@ -278,7 +252,7 @@ function App() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* banner sec */}
       <section className="cta">
         <div className="container">
           <h2>Ready to Begin Your Coding Journey?</h2>
@@ -288,69 +262,8 @@ function App() {
             <button className="btn-outline light">Explore Roadmaps</button>
           </div>
         </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="footer">
-        <div className="container">
-          <div className="footer-sections">
-            <div className="footer-about">
-              <div className="logo">
-                <div className="logo-icon light">&lt;/&gt;</div>
-                <span className="logo-text">CodeRoot</span>
-              </div>
-              <p>Empowering students with coding skills for the future, one step at a time.</p>
-              <div className="social-links">
-                <a href="#" className="social-icon">f</a>
-                <a href="#" className="social-icon">t</a>
-                <a href="#" className="social-icon">in</a>
-                <a href="#" className="social-icon">yt</a>
-              </div>
-            </div>
-
-            <div className="footer-links">
-              <h3>Quick Links</h3>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Roadmaps</a></li>
-                <li><a href="#">Practice</a></li>
-                <li><a href="#">Explore</a></li>
-              </ul>
-            </div>
-
-            <div className="footer-links">
-              <h3>Resources</h3>
-              <ul>
-                <li><a href="#">Coding Guides</a></li>
-                <li><a href="#">Project Ideas</a></li>
-                <li><a href="#">Student Showcase</a></li>
-                <li><a href="#">Parent Resources</a></li>
-                <li><a href="#">Teacher Tools</a></li>
-              </ul>
-            </div>
-
-            <div className="footer-contact">
-              <h3>Contact Us</h3>
-              <ul>
-                <li><a href="mailto:info@coderoot.edu">info@coderoot.edu</a></li>
-                <li><a href="tel:+919876543210">+91 98765 43210</a></li>
-                <li>123 Education Lane, Tech Park, Bengaluru, India</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="footer-bottom">
-            <p>&copy; {new Date().getFullYear()} CodeRoot. All rights reserved.</p>
-            <div className="footer-legal">
-              <a href="#">Privacy Policy</a>
-              <a href="#">Terms of Service</a>
-              <a href="#">Cookie Policy</a>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
+      </section>   
+</div>
   );
 }
 
