@@ -98,7 +98,7 @@ function App() {
   const testimonials = [
     {
       id: "1",
-      name: "Vani Rudra",
+      name: "Priya S.",
       grade: "Grade 8",
       location: "Delhi",
       stars: 5,
@@ -106,7 +106,7 @@ function App() {
     },
     {
       id: "2",
-      name: "Ganga Raghuwanshi",
+      name: "Arjun K.",
       grade: "Grade 11",
       location: "Mumbai",
       stars: 4.5,
@@ -114,7 +114,7 @@ function App() {
     },
     {
       id: "3",
-      name: "Bulbul Agarwalla",
+      name: "Zara M.",
       grade: "Grade 7",
       location: "Bangalore",
       stars: 5,
