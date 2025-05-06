@@ -136,7 +136,7 @@ function App() {
             </div>
           </div>
           <div className="hero-image">
-            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Students coding together" />
+            <img src="https://i.pinimg.com/736x/de/c2/bc/dec2bc50a4ae85e3a931623879ae6adf.jpg" alt="Students coding together" />
           </div>
         </div>
       </section>
@@ -218,7 +218,7 @@ function App() {
               ))}
             </div>
             <div className="steps-image">
-              <img src="https://images.unsplash.com/photo-1544256718-3bcf237f3974?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Students working on coding projects" />
+              <img src="https://i.pinimg.com/736x/4a/93/a6/4a93a6b8e9515b7c6f616ce4808f6bc6.jpg" alt="Student-coding" />
             </div>
           </div>
         </div>
