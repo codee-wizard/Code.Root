@@ -1,5 +1,10 @@
 import React from 'react';
 import '../styles/Home.css';
+import insta from '../components/Assets/instagram-logo-24.png'
+import facebook from '../components/Assets/facebook-logo-24.png'
+import linkedin from '../components/Assets/linkedin-logo-24.png'
+import youtube from '../components/Assets/youtube-logo-24.png'
+
 
 function Footer() {
   return (
@@ -13,10 +18,18 @@ function Footer() {
               </div>
               <p>Empowering students with coding skills for the future, one step at a time.</p>
               <div className="social-links">
-                <a href="#" className="social-icon">f</a>
-                <a href="#" className="social-icon">t</a>
-                <a href="#" className="social-icon">in</a>
-                <a href="#" className="social-icon">yt</a>
+                <a href="#" className="social-icon">
+                  <img src={insta} alt="na"/>
+                </a>
+                <a href="#" className="social-icon">
+                <img src={facebook} alt="na"/>
+                </a>
+                <a href="#" className="social-icon">
+                <img src={linkedin} alt="na"/>
+                </a>
+                <a href="#" className="social-icon">
+                <img src={youtube} alt="na"/>
+                </a>
               </div>
             </div>
 
