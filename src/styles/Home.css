@@ -43,12 +43,12 @@
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    color: #969494;
+    color: #e8e5e5;
   }
   
   .section-header p {
     font-size: 1.1rem;
-    color: #817f7f;
+    color: #b5b4b4;
     max-width: 600px;
     margin: 0 auto;
   }
@@ -87,7 +87,7 @@
   
   .btn-secondary {
     background-color: rgb(59, 57, 57);
-    color: #974cc9;
+    color: #c089e5;
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 0.375rem;
@@ -96,7 +96,7 @@
   }
   
   .btn-secondary:hover {
-    background-color: #d5d3d8;
+    background-color: #858487;
   }
   
   .btn-outline {
@@ -336,7 +336,7 @@
   }
   
   .roadmap-card p {
-    color: #6b7280;
+    color: #bbbdc0;
     margin-bottom: 1rem;
     font-size: 0.95rem;
   }
@@ -381,7 +381,7 @@
   }
   
   .topic .pending {
-    color: #9ca3af;
+    color: #adafb3;
   }
   
   .roadmap-card {
@@ -432,7 +432,7 @@
   }
   
   .benefit-card p {
-    color: #6b7280;
+    color: #b9bbbf;
     font-size: 0.95rem;
   }
   
@@ -477,7 +477,7 @@
   }
   
   .step-content p {
-    color: #6b7280;
+    color: #dddfe1;
     font-size: 0.95rem;
   }
   
@@ -541,7 +541,7 @@
   }
   
   .testimonial-text {
-    color: #6b7280;
+    color: #c8cad0;
     font-style: italic;
     font-size: 0.95rem;
   }
@@ -597,7 +597,7 @@
   }
   
   .footer-about p {
-    color: #9ca3af;
+    color: #c3c5c8;
     margin: 1rem 0;
     font-size: 0.95rem;
   }
